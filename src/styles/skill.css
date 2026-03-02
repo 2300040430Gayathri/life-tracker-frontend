@@ -1,0 +1,92 @@
+/* ================= SKILL PAGE ================= */
+
+.main-skill-wrapper {
+  min-height: 100vh;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-skill-container {
+  width: 100%;
+  max-width: 500px;
+  background: #f6e1d6;
+  border-radius: 22px;
+  padding: 22px;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.06);
+}
+
+.main-skill-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Block */
+
+.main-skill-block {
+  margin-bottom: 25px;
+}
+
+/* Skill Row */
+
+.main-skill-item {
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 14px 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 6px 14px rgba(0,0,0,0.06);
+}
+
+.main-skill-delete {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Options */
+
+.main-skill-options {
+  margin-top: 10px;
+  display: flex;
+  gap: 10px;
+}
+
+.main-skill-option {
+  background: #fff5ec;
+  border: 2px solid #d6aa96;
+  border-radius: 14px;
+  padding: 8px 16px;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.main-skill-option:hover {
+  background: #e3bfae;
+}
+
+/* Add Section */
+
+.main-skill-add {
+  margin-top: 30px;
+  display: flex;
+  gap: 10px;
+}
+
+.main-skill-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+}
+
+.main-skill-add-btn {
+  padding: 10px 16px;
+  border-radius: 12px;
+  border: none;
+  background: #e3bfae;
+  cursor: pointer;
+}

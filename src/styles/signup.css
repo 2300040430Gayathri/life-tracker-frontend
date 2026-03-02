@@ -1,0 +1,72 @@
+/* ================= SIGNUP PAGE ================= */
+
+.auth-signup-wrapper {
+  min-height: 100vh;
+  background: #f6e1d6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-signup-card {
+  background: rgba(255, 248, 240, 0.95);
+  padding: 36px;
+  width: 380px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.08);
+}
+
+/* Title */
+
+.auth-signup-title {
+  margin-bottom: 8px;
+}
+
+.auth-signup-emoji {
+  margin-left: 6px;
+}
+
+/* Inputs */
+
+.auth-signup-input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 14px;
+  border-radius: 12px;
+  border: 1px solid #ddd;
+  outline: none;
+}
+
+/* Button */
+
+.auth-signup-btn {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 14px;
+  background: #e3bfae;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.auth-signup-btn:hover {
+  background: #d6aa96;
+}
+
+/* Footer */
+
+.auth-signup-footer {
+  margin-top: 14px;
+  font-size: 13px;
+  color: #555;
+}
+
+.auth-signup-link {
+  background: none;
+  border: none;
+  color: #b07a5a;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 6px;
+}

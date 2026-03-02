@@ -1,0 +1,105 @@
+/* ================= MOMENTS PAGE ================= */
+
+.main-moments-wrapper {
+  min-height: 100vh;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-moments-container {
+  width: 100%;
+  max-width: 500px;
+  background: #f6e1d6;
+  border-radius: 22px;
+  padding: 22px;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.06);
+}
+
+.main-moments-title {
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+/* Header */
+
+.main-moments-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+/* Weekdays */
+
+.main-moments-weekdays {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  margin-bottom: 6px;
+}
+
+.main-moments-weekday {
+  text-align: center;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+/* Grid */
+
+.main-moments-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 8px;
+  margin-bottom: 16px;
+}
+
+/* Day */
+
+.main-moments-day {
+  background: #ffffff;
+  border-radius: 12px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+}
+
+.main-moments-day:hover {
+  background: #f1d3c3;
+}
+
+.main-moments-active {
+  background: #a97457;
+  color: white;
+  font-weight: 700;
+}
+
+/* Note */
+
+.main-moments-note {
+  background: #ffffff;
+  border-radius: 20px;
+  padding: 16px;
+  box-shadow: 0 8px 18px rgba(0,0,0,0.06);
+}
+
+.main-moments-date {
+  text-align: right;
+  font-size: 13px;
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.main-moments-textarea {
+  width: 100%;
+  min-height: 120px;
+  border-radius: 16px;
+  padding: 14px;
+  border: 2px solid #e3bfae;
+  resize: vertical;
+  outline: none;
+}

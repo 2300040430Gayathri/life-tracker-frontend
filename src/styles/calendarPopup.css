@@ -1,0 +1,68 @@
+/* ================= SKILL CALENDAR POPUP ================= */
+
+.main-skill-calendar-wrapper {
+  margin-top: 10px;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 12px;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.08);
+}
+
+/* Header */
+
+.main-skill-calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.main-skill-calendar-header button {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+/* Grid */
+
+.main-skill-calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 6px;
+}
+
+/* Day */
+
+.main-skill-calendar-day {
+  height: 32px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  cursor: pointer;
+  background: #ffffff;
+  transition: all 0.2s ease;
+}
+
+.main-skill-calendar-day:hover {
+  background: #f1d3c3;
+}
+
+/* Light Mark */
+
+.main-skill-calendar-light {
+  background: #b07a5a;
+  color: white;
+}
+
+/* Dark Mark */
+
+.main-skill-calendar-dark {
+  background: #6f4e37;
+  color: white;
+  font-weight: 600;
+}

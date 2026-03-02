@@ -1,0 +1,133 @@
+/* ================= DAILY ROUTINE ================= */
+
+.main-routine-wrapper {
+  min-height: 100vh;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-routine-container {
+  width: 100%;
+  max-width: 620px;
+  background: #f6e1d6;
+  border-radius: 22px;
+  padding: 22px;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.06);
+}
+
+.main-routine-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* ================= ROW ================= */
+
+.main-routine-row {
+  display: flex;
+  align-items: center;   /* 🔥 centered properly */
+  gap: 14px;
+  margin-bottom: 18px;
+}
+
+/* ================= TIME ================= */
+
+.main-routine-time {
+  min-width: 160px;
+  background: #e3bfae;
+  border-radius: 18px;
+  padding: 12px;
+  text-align: center;
+  font-weight: 600;
+}
+
+/* ================= TASK BOX ================= */
+
+.main-routine-task {
+  flex: 1;
+  background: #ffffff;
+  border-radius: 18px;
+  padding: 14px 18px;
+  display: flex;
+  align-items: center;              /* 🔥 important */
+  justify-content: space-between;   /* 🔥 fixes circle alignment */
+}
+
+/* Text inside task */
+
+.main-routine-task span {
+  flex: 1;
+  word-break: break-word;
+  padding-right: 12px;
+}
+
+/* Completed */
+
+.main-routine-completed span {
+  text-decoration: line-through;
+  color: #777;
+}
+
+/* ================= CIRCLE ================= */
+
+.main-routine-circle {
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  border: 2px solid #5d9bd3;
+  cursor: pointer;
+  flex-shrink: 0;   /* 🔥 prevents shifting */
+}
+
+.main-routine-circle-done {
+  background: #5d9bd3;
+}
+
+/* ================= ACTIONS ================= */
+
+.main-routine-actions {
+  display: flex;
+  gap: 8px;
+}
+
+.main-routine-actions button {
+  background: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+
+/* ================= ADD ================= */
+
+.main-routine-add-btn {
+  width: 100%;
+  padding: 14px;
+  border-radius: 18px;
+  border: none;
+  background: #e3bfae;
+  cursor: pointer;
+}
+
+.main-routine-add-block {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 14px;
+}
+
+.main-routine-add-text {
+  width: 100%;
+  padding: 8px;
+  border-radius: 12px;
+  border: 1.5px solid #d6aa96;
+}
+
+.main-routine-edit-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  resize: none;
+}

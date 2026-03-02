@@ -1,0 +1,118 @@
+/* ================= TODO PAGE ================= */
+
+.main-todo-wrapper {
+  min-height: 100vh;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-todo-container {
+  width: 100%;
+  max-width: 500px;
+  background: #f6e1d6;
+  border-radius: 22px;
+  padding: 20px;
+  box-shadow: 0 10px 22px rgba(0,0,0,0.06);
+}
+
+/* ================= HEADER ================= */
+
+.main-todo-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 14px;
+  font-weight: 600;
+}
+
+/* ================= INPUT BAR ================= */
+
+.main-todo-input-bar {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.main-todo-input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 14px;
+  border: 2px solid #e3bfae;
+}
+
+.main-todo-add-btn {
+  padding: 12px 16px;
+  border-radius: 14px;
+  border: none;
+  background: #5d9bd3;
+  color: white;
+  cursor: pointer;
+}
+
+/* ================= LIST ================= */
+
+.main-todo-item {
+  display: flex;
+  align-items: center;
+  background: #ffffff;
+  padding: 12px 16px;
+  border-radius: 14px;
+  margin-bottom: 10px;
+  cursor: grab;
+}
+
+/* TEXT */
+
+.main-todo-text {
+  flex: 1;
+  word-break: break-word;
+  padding-right: 12px;
+}
+
+/* Completed */
+
+.main-todo-completed .main-todo-text {
+  text-decoration: line-through;
+  color: #777;
+}
+
+/* ================= ACTIONS (FIXED ALIGNMENT) ================= */
+
+.main-todo-actions {
+  width: 80px;              /* 🔥 FIXED WIDTH FOR ALIGNMENT */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+/* Circle */
+
+.main-todo-circle {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #5d9bd3;
+  cursor: pointer;
+}
+
+.main-todo-circle-done {
+  background: #5d9bd3;
+}
+
+/* Delete */
+
+.main-todo-delete {
+  background: none;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Empty */
+
+.main-todo-empty {
+  font-size: 13px;
+  color: #777;
+}
